@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Girish Chandra Kuniyal"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/image_main.jpeg"
   bio              : "Machine learning Explorer"
   location         : "Delhi, India"
   email            : "myname@gmail.com"

@@ -286,12 +286,19 @@ defaults:
   - scope:
       path: ""
       type: posts
-    values:
+    	values:
       layout: single
       author_profile: true
       read_time: true
       comments: # true
       share: true
       related: true
+  # _pages and everything else
+  - scope:
+      path: ""
+	values:
+      layout: single
+      author_profile: true
+	use_math: false
 
 theme: jekyll-theme-cayman

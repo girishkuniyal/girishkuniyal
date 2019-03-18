@@ -283,7 +283,6 @@ compress_html:
 
 # Defaults
 defaults:
-defaults:
   # _posts
   - scope:
       path: ""
@@ -295,6 +294,13 @@ defaults:
       comments: false
       share: true
       related: true
-
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+share: true
 
 theme: jekyll-theme-cayman

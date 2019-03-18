@@ -282,23 +282,16 @@ compress_html:
 
 # Defaults
 defaults:
-  # _pages and everything else
-  - scope:
-      path: ""
-	values:
-      layout: single
-      author_profile: true
-	use_math: false
-
   # _posts
   - scope:
-	path: ""
-	type: posts
-	values:
-	layout: single
-	author_profile: true
-	read_time: true
-	comments: # true
-	share: true
-	related: true
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+
 theme: jekyll-theme-cayman
